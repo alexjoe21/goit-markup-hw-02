@@ -1,3 +1,21 @@
-title {
-  color: blue;
+.title {
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.main-part {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
