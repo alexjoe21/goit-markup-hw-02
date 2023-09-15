@@ -1,10 +1,13 @@
 body {
   font-family: Roboto;
   flex-direction: column;
+  max-width: 1440px;
+  max-height: 312px;
+  display: flex;
 }
 ul {
   list-style-type: none;
-  flex-direction: column;
+  padding-inline-start: 0px;
 }
 li {
   list-style-type: none;
@@ -138,8 +141,5 @@ a {
   background: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  font-style: normal;
 }
