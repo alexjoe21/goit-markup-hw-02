@@ -1,0 +1,14 @@
+:root {
+    (--NAVY-BLUE, #2e2f42);
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: var(--NAVY-BLUE, #2e2f42);
+    
+}
+
+link {
+    text-decoration: none;
+    color: #2e2f42;
+}
