@@ -58,7 +58,6 @@ nav a {
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-size: 18px;
   font-style: normal;
   font-weight: 800;
 }
@@ -69,6 +68,12 @@ nav a {
   text-transform: uppercase;
 }
 
+.header-contact:hover {
+  text-decoration: underline;
+}
+.studio:hover {
+  color: var(--NAVY-BLUE);
+}
 /* end of  main section */
 
 /* section 1 */
@@ -124,11 +129,6 @@ footer {
 }
 .footer-web {
   color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  text-transform: uppercase;
 }
 .footer-link {
   color: var(--CLOUD, #f4f4fd);
@@ -136,5 +136,6 @@ footer {
   font-style: normal;
   font-weight: 800;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 /* end of footer */
