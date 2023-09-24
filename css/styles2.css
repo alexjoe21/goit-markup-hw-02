@@ -17,7 +17,8 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 400;
 }
-a:hover {
+a:hover,
+a:focus {
   color: var(--IRIS, #4d5ae5);
 }
 /* end of body */
