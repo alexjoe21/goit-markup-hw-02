@@ -10,7 +10,8 @@ body {
   display: flex;
   color: var(--NAVY-BLUE, #2e2f42);
 }
-a:hover {
+a:hover,
+a:focus {
   color: rgba(64, 75, 191, 1);
 }
 /* end of body */
