@@ -4,6 +4,8 @@
   --WHITE: #fff;
   --SLATE: #434455;
   --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --OCEAN: #404bbf;
 }
 
 /* body */
@@ -19,7 +21,7 @@ body {
   font-family: "raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.31;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -31,14 +33,18 @@ body {
 nav .logo {
   color: var(--NAVY-BLUE);
 }
+
 .hdr a {
   text-decoration: none;
   color: var(--NAVY-BLUE);
   font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .hdr .contact {
   font-weight: 400;
   padding-top: 0%;
+  color: var(--SLATE);
 }
 .hdr a:hover,
 .hdr a:focus {
@@ -49,6 +55,19 @@ nav .logo {
   list-style: none;
   padding-left: 0;
 }
+.list h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.list p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+}
+
 .hero .button {
   background-color: var(--IRIS);
   border: none;
@@ -63,6 +82,23 @@ nav .logo {
 .hero .button:focus {
   color: var(--NAVY-BLUE);
 }
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  color: var(--IRIS);
+  border-radius: 4px;
+  border: none;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--OCEAN);
+  color: var(--WHITE);
+}
+
 /* end of  Hero section */
 
 /* sections  */
@@ -82,7 +118,7 @@ nav .logo {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 2.5;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -91,6 +127,8 @@ nav .logo {
 /* footer */
 .footer {
   color: var(--CLOUD);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .footer .logo {
   color: var(--CLOUD);

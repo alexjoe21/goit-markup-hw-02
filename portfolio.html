@@ -4,96 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
-    <header>
+    <header class="hdr portfolio">
       <nav>
-        <a class="web-logo" href="#">
-          <span class="web-logo header">WEB</span>STUDIO
-        </a>
-        <ul class="header-link link">
-          <li><a href="portfolio.html" class="studio">Studio</a></li>
+        <a class="logo" href="#"> <span>WEB</span>STUDIO </a>
+        <ul class="list">
+          <li>
+            <a href="portfolio.html">Studio</span></a>
+          </li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+      <ul class="list">
+        <li>
+          <a href="info@devstudio.com" class="contact">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+11(000)111-11-11" class="contact">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
     <!-- Button section -->
-    <section class="button-link link">
-      <button type="button">All</button>
-      <button type="button">Web</button>
-      <button type="button">App</button>
-      <button type="button">Design</button>
-      <button type="button">Marketing</button>
+    <section>
+      <button type="button" class="portfolio-btn" >All</button>
+      <button type="button" class="portfolio-btn">Web</button>
+      <button type="button" class="portfolio-btn">App</button>
+      <button type="button" class="portfolio-btn">Design</button>
+      <button type="button" class="portfolio-btn">Marketing</button>
     </section>
 
     <!-- Photo Section -->
     <section>
-      <ul>
+      <ul class="list">
         <li>
-          <img src="./images/bankapp.jpg" alt="Bank apps" />
+          <img src="./images/bankapp.jpg" alt="Bank apps" class="portfolio-img" />
           <h3>Banking App Interface Concept</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/cpscanner.jpg" alt="CP Scanner" />
+          <img src="./images/cpscanner.jpg" alt="CP Scanner" class="portfolio-img" />
           <h3>Cashless Payment</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/laptopcp.jpg" alt="Laptop and CP" />
+          <img src="./images/laptopcp.jpg" alt="Laptop and CP" class="portfolio-img" />
           <h3>Meditation App</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/carcp.jpg" alt="Car and CP" />
+          <img src="./images/carcp.jpg" alt="Car and CP" class="portfolio-img" />
           <h3>Taxi Service</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/cpwallpaper.jpg" alt="Cp Wallpaper" />
+          <img src="./images/cpwallpaper.jpg" alt="Cp Wallpaper" class="portfolio-img" />
           <h3>Screen Illustrations</h3>
           <p>Design</p>
         </li>
         <li>
-          <img src="./images/womancp.jpg" alt="Woman and CP" />
+          <img src="./images/womancp.jpg" alt="Woman and CP" class="portfolio-img" />
           <h3>Online Courses</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/posters.jpg" alt="Posters Collage" />
+          <img src="./images/posters.jpg" alt="Posters Collage" class="portfolio-img" />
           <h3>Instagram Stories Concept</h3>
           <p>Design</p>
         </li>
         <li>
-          <img src="./images/womanveggie.jpg" alt="Woman and Vegetables" />
+          <img src="./images/womanveggie.jpg" alt="Woman and Vegetables" class="portfolio-img" />
           <h3>Organic Food</h3>
           <p>Web Site</p>
         </li>
         <li>
-          <img src="./images/coffee.jpg" alt="Latte Art" />
+          <img src="./images/coffee.jpg" alt="Latte Art" class="portfolio-img" />
           <h3>Fresh Coffee</h3>
           <p>Web Site</p>
         </li>
       </ul>
     </section>
 
-    <footer>
-      <footer>
-        <a href="#"> <span class="footer-web">WEB</span>STUDIO </a>
-        <p>
-          Increase the flow of customers and <br />
-          sales for your business with digital <br />
-          marketing & growth solutions.
-        </p>
-      </footer>
+    <footer class="navy-bg footer">
+      <a class="logo" href="#"> <span>WEB</span>STUDIO </a>
+      <p>
+        Increase the flow of customers and <br />
+        sales for your business with digital <br />
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
