@@ -92,6 +92,8 @@ nav .logo {
   color: var(--IRIS);
   border-radius: 4px;
   border: none;
+  padding: 12px 24px;
+  justify-content: center;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
